@@ -1,0 +1,10 @@
+---
+# test file
+
+- name: Install Tomcat 7.
+  hosts: servers
+  roles:
+    - role: ansible-role-tomcat7
+      tomcat7_packages:
+        - tomcat
+      tomcat7_uriencoding: "UTF-8"
