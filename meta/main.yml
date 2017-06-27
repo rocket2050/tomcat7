@@ -1,6 +1,10 @@
 ---
+
+dependencies:
+  - java
+
 galaxy_info:
-  author: z
+  author: rajat
   description: Tomcat 7 for RHEL/CentOS.
   company:
   license: license (BSD, MIT)
@@ -11,4 +15,3 @@ galaxy_info:
     - 7
   categories:
   - web
-dependencies: []
