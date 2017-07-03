@@ -1,4 +1,4 @@
 ---
 - hosts: "{{host}}"
   roles:
-    - { role: "ansible-role-tomcat7" }
+    - { role: "tomcat7" }
